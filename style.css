@@ -204,3 +204,33 @@ html{
 .hero{
     position: relative;
 }
+
+
+.selected-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: -3px;
+    color: silver;
+}
+.box{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-evenly
+    
+}
+a img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+a img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 12px white;
+}
