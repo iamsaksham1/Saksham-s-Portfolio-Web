@@ -273,7 +273,7 @@ a img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 70px;
     font-weight: 500;
 }
 h2{
@@ -292,22 +292,28 @@ h2{
 }
 
 .connect{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.connect p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.social-icons{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;   /* Space between the icons */
-    width: 100%;
-    margin: 20px auto 0;
+    gap: 25px;
 }
 
-.connect a{
+.social-icons a{
     color: white;
     font-size: 2rem;
-    transition: 0.3s ease;
-    
+    transition: .3s;
 }
 
-.connect a:hover{
-    color: #FFD60A;
-    transform: translateY(-3px);
+.social-icons a:hover{
+    color: #02a2ff;
+    transform: scale(1.15);
 }
